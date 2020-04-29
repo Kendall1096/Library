@@ -92,15 +92,10 @@ public class Client {
     }
 
     public void ViewC(ArrayList<Client> ClientsL, int indice) {
-        int top= 0;
-        System.out.println("Clientes");
-        for (int index = 0; index < top; index++) {
-            ClientsL.get(index);
-            System.out.println(this.getName());
-       /** int i=0;
+         int i=0;
         for (Client Clients : ClientsL) {
             System.out.println(i + ". " + Clients.getName());
-            i++; **/
+            i++; 
         }
         Menu.EnterContinue();
     }
